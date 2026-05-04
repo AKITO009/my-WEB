@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Dikshit</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/9fcb8631fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted src="video/galaxy.mp4"></video>
+        
+        <header>
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="image/mee.png" alt="logo">
+                    <h1><span>Dikshit</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="socials">
+                    <a href="https://www.instagram.com/dikshit_sapkota10/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/AKITO009"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dikshit-sapkota-0b0a0b20b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h1>Get In Touch</h1>
+                    <p>Have a question or want to work together? Feel free to reach out!</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>dikshit.sapkota09@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Nepal</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <div>
+                                <h3>Response Time</h3>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="https://formsubmit.co/dikshit.sapkota09@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Contact Form Submission">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                        
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
